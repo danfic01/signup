@@ -7,6 +7,7 @@
     margin: 0;
     padding: 0;
     font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     box-sizing: border-box;
 }
 
@@ -46,4 +47,33 @@
     color: #ffffff;
     font-family: "Norse";
     font-size: 6rem;
+}
+
+.content {
+    background-color: #f7f7f7;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    
+}
+
+.info {
+    padding: 1rem 2rem;
+}
+
+.info p {
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+.signup {
+    background-color: #ffffff;
+    padding: 1rem 2rem;
+
+}
+
+.account {
+    padding: 1rem 2rem;
 }
