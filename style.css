@@ -6,8 +6,9 @@
 * {
     margin: 0;
     padding: 0;
+    color: #1f1f1f;
     font-size: 16px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     box-sizing: border-box;
 }
 
@@ -60,20 +61,54 @@
 }
 
 .info {
-    padding: 1rem 2rem;
+    padding: 1rem 3rem;
+    max-width: 900px;
 }
 
 .info p {
     font-size: 1.5rem;
-    padding-bottom: 1rem;
+    font-weight: 600;
+    padding-bottom: 2rem;
 }
 
 .signup {
     background-color: #ffffff;
-    padding: 1rem 2rem;
+    box-shadow: 0 8px 8px #e7e7e7;
+    padding: 2rem 3rem;
+}
 
+.signup p {
+    font-size: 1.5rem;
+    font-weight: 600;
+
+    margin-bottom: 2rem;
+}
+
+.signup label {
+    font-size: .8rem;
+    font-weight: 600;
+    
+}
+
+.signup form {
+    display: grid;
+    grid-template-columns: 320px 320px;
+    row-gap: 2rem;
+}
+
+.form-row {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-row input {
+    width: 260px;
+    height: 30px;
+
+    border: 2px solid #e7e7e7;
+    border-radius: 4px;
 }
 
 .account {
-    padding: 1rem 2rem;
+    padding: 1rem 3rem;
 }
